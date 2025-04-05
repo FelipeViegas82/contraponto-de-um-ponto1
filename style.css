@@ -77,8 +77,11 @@ p {
 .quotes {
     text-align: center; /* Centraliza o texto */
     max-width: 600px;
-    margin: -10px auto 10px auto; /* Move um pouco para cima (-10px) */
+    margin: -30px auto 0 auto; /* Levanta mais (-30px) */
     font-style: italic;
     color: #ccc;
-    line-height: 1.4; /* Dá um respiro entre as frases */
+    line-height: 1.2; /* Diminui espaço entre as linhas */
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Espaço menor entre as frases */
 }
