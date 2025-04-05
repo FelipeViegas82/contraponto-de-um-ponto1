@@ -52,8 +52,8 @@ header nav a {
 .post-container {
     display: flex;
     justify-content: center;
-    gap: 40px;
-    margin-top: 40px;
+    gap: 35px;
+    margin-top: 35px;
     padding: 0 15%;
 }
 
