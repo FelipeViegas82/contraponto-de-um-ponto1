@@ -1,0 +1,120 @@
+/* Reset e base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('fundo1.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+}
+
+/* Menu */
+header nav {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 1rem 0;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+  color: #4fc3f7;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 6rem 2rem 3rem;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hero h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+/* Cards de posts */
+.posts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card a {
+  color: #4fc3f7;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Frases */
+.frases {
+  padding: 2rem;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.frases blockquote {
+  font-style: italic;
+  margin: 1rem auto;
+  font-size: 1.1rem;
+  color: #cccccc;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 0.9rem;
+  color: #aaa;
+}
