@@ -77,7 +77,8 @@ p {
 .quotes {
     text-align: left;
     max-width: 600px;
-    margin: 10px auto 10px 2%;
+    margin: -30px auto 10px 2%;
     font-style: italic;
     color: #ccc;
+    line-hight: 1.2;
 }
