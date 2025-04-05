@@ -32,7 +32,7 @@ header nav li {
 }
 
 h1 {
-    margin-top: 5;
+    margin-top: 5px;
 }
 
 header nav a {
@@ -55,6 +55,7 @@ header nav a {
     gap: 35px;
     margin-top: 35px;
     padding: 0 15%;
+    flex-wrap: wrap;
 }
 
 .post {
@@ -62,6 +63,7 @@ header nav a {
     padding: 20px;
     border-radius: 10px;
     width: 35%;
+    min-width: 250px;
     text-align: left;
 }
 
@@ -75,13 +77,30 @@ p {
 }
 
 .quotes {
-    text-align: center; /* Centraliza o texto */
+    text-align: center;
     max-width: 600px;
-    margin: -30px auto 0 auto; /* Levanta mais (-30px) */
+    margin: -20px auto 0 auto;
     font-style: italic;
     color: #ccc;
-    line-height: 1.2; /* Diminui espaço entre as linhas */
+    line-height: 1.4;
     display: flex;
     flex-direction: column;
-    gap: 5px; /* Espaço menor entre as frases */
+    gap: 10px;
+}
+
+@media (max-width: 768px) {
+    .post-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .post {
+        width: 80%;
+        text-align: center;
+    }
+
+    .quotes {
+        margin: -10px auto 0 auto;
+        font-size: 14px;
+    }
 }
