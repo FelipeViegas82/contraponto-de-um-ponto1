@@ -6,14 +6,13 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-image: url('fundo1.png');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('fundo1.png') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    min-height: 100vh;
 }
 
 /* Menu */
