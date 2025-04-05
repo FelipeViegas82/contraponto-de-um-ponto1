@@ -1,113 +1,45 @@
-/* Reset e base */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #ffffff;
-  background-image: url("fundo1.png");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  min-height: 100vh;
-  backdrop-filter: brightness(0.9);
-}
-
-/* Menu */
-header nav {
-  background-color: rgba(0, 0, 0, 0.7);
-  position: sticky;
-  top: 0;
-  z-index: 100;
-}
-
-header nav ul {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  padding: 1rem 0;
-}
-
-header nav ul li {
-  margin: 0 15px;
-}
-
-header nav ul li a {
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: bold;
-  transition: color 0.3s ease;
-}
-
-header nav ul li a:hover {
-  color: #4fc3f7;
-}
-
-/* Hero */
-.hero {
-  text-align: center;
-  padding: 6rem 2rem 3rem;
-  background: rgba(0, 0, 0, 0.5);
-}
-
-.hero h1 {
-  font-size: 2rem;
-  font-weight: 600;
-  color: #ffffff;
-}
-
-/* Cards de posts */
-.posts {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
-  padding: 2rem;
-  background: rgba(0, 0, 0, 0.5);
-}
-
-.card {
-  background-color: rgba(255, 255, 255, 0.05);
-  padding: 1.5rem;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
-  transition: transform 0.3s ease;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-}
-
-.card h2 {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.card p {
-  font-size: 1rem;
-  margin-bottom: 1rem;
-}
-
-.card a {
-  color: #4fc3f7;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-/* Frases */
-.frases {
-  padding: 2rem;
-  text-align: center;
-  background: rgba(0, 0, 0, 0.7);
-}
-
-.frases blockquote {
-  font-style: italic;
-  margin: 1rem auto;
-  font-size: 1.1rem;
-  color: #cccccc;
-}
-
-/
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contraponto de um Ponto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Ideias</a></li>
+                <li><a href="#">Vida</a></li>
+                <li><a href="#">Esporte</a></li>
+                <li><a href="#">Política</a></li>
+                <li><a href="#">Amenidades</a></li>
+                <li><a href="#">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h1>Este não é o ponto. É só o meu. Um contraponto de um ponto.</h1>
+        <div class="posts-container">
+            <div class="post" style="background: rgba(255, 255, 255, 0.2);">
+                <h2>Post Principal</h2>
+                <p>Um trecho do seu post mais importante ou recente...</p>
+                <a href="#">Ler mais</a>
+            </div>
+            <div class="post" style="background: rgba(255, 255, 255, 0.2);">
+                <h2>Outro Post</h2>
+                <p>Uma ideia sobre o mundo, uma crítica ou uma reflexão pessoal.</p>
+                <a href="#">Ler mais</a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="quotes">
+        <p style="text-align: left; margin-left: 5%;">"O pensamento crítico começa onde termina a zona de conforto."</p>
+        <p style="text-align: left; margin-left: 5%;">"Nem todo ponto final encerra um diálogo."</p>
+    </section>
+</body>
+</html>
