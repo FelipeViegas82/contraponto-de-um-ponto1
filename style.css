@@ -1,29 +1,29 @@
-body {
-    font-family: Arial, sans-serif;
+/* Resetando margens e paddings */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
     background: url('./fundo1.png') no-repeat center center fixed;
     background-size: cover;
     color: white;
-}
-
-header {
-    background: rgba(0, 0, 0, 0.8);
-    padding: 15px;
     text-align: center;
 }
 
-.nav-container {
-    display: flex;
-    justify-content: center;
+/* Estilização do Header */
+header {
+    background: rgba(0, 0, 0, 0.85);
+    padding: 15px;
 }
 
 .nav-menu {
     list-style: none;
-    padding: 0;
-    margin: 0;
     display: flex;
-    gap: 25px;
+    justify-content: center;
+    gap: 20px;
 }
 
 .nav-menu li {
@@ -33,8 +33,8 @@ header {
 .nav-menu a {
     color: white;
     text-decoration: none;
-    font-weight: bold;
     font-size: 16px;
+    font-weight: bold;
     transition: color 0.3s ease;
 }
 
@@ -42,49 +42,48 @@ header {
     color: #00aaff;
 }
 
+/* Seção Principal */
 .hero {
-    background: rgba(0, 0, 0, 0.85);
+    background: rgba(0, 0, 0, 0.8);
     padding: 30px;
-    border-radius: 12px;
-    margin: 20px auto;
-    text-align: center;
+    border-radius: 10px;
     width: 80%;
+    margin: 20px auto;
 }
 
 h1 {
-    margin-bottom: 15px;
     font-size: 26px;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
+/* Estilização dos Posts */
 .post-container {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     gap: 30px;
-    margin-top: 20px;
-    padding: 0 10%;
+    flex-wrap: wrap;
 }
 
 .post {
-    background: rgba(255, 255, 255, 0.25);
+    background: rgba(255, 255, 255, 0.2);
     padding: 20px;
-    border-radius: 12px;
-    width: 40%;
-    min-width: 250px;
+    border-radius: 10px;
+    width: 35%;
+    min-width: 280px;
     text-align: left;
-    transition: background 0.3s ease-in-out;
+    transition: background 0.3s ease;
 }
 
 .post:hover {
-    background: rgba(255, 255, 255, 0.35);
+    background: rgba(255, 255, 255, 0.3);
 }
 
 .read-more {
     color: #00aaff;
     font-weight: bold;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     margin-top: 10px;
 }
 
@@ -92,15 +91,11 @@ h1 {
     text-decoration: underline;
 }
 
+/* Estilização das Citações */
 .quotes {
-    text-align: center;
-    max-width: 600px;
-    margin: -30px auto 20px auto;
     font-style: italic;
     color: #ccc;
-    line-height: 1.3;
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
+    margin-top: 15px;
     font-size: 14px;
+    line-height: 1.5;
 }
