@@ -46,7 +46,7 @@ header nav a {
 .hero {
     background: rgba(0, 0, 0, 0.8);
     padding: 30px;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .post-container {
