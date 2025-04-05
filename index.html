@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: url('background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        .header {
+            text-align: center;
+            margin-top: 80px;
+            padding: 50px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+        }
+
+        .post-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+            padding: 20px;
+        }
+
+        .post {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+        }
+
+        .post h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .post p {
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        .post a {
+            color: #00aaff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.7);
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#">Início</a>
+        <a href="#">Ideias</a>
+        <a href="#">Vida</a>
+        <a href="#">Esporte</a>
+        <a href="#">Política</a>
+        <a href="#">Amenidades</a>
+        <a href="#">Sobre</a>
+    </div>
+
+    <div class="header">
+        <h1>Este não é o ponto. É só o meu. Um contraponto de um ponto.</h1>
+    </div>
+
+    <div class="post-container">
+        <div class="post">
+            <h2>Post Principal</h2>
+            <p>Um trecho do seu post mais importante ou recente...</p>
+            <a href="#">Ler mais</a>
+        </div>
+        <div class="post">
+            <h2>Outro Post</h2>
+            <p>Uma ideia sobre o mundo, uma crítica ou uma reflexão pessoal.</p>
+            <a href="#">Ler mais</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p><i>"O pensamento crítico começa onde termina a zona de conforto."</i></p>
+        <p><i>"Nem todo ponto final encerra um diálogo."</i></p>
+    </div>
+</body>
+</html>
