@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: url('fundo1.png');
+    background: url('./fundo1.png') no-repeat center center fixed;
     background-size: cover;
     color: white;
 }
@@ -18,10 +18,15 @@ header {
     text-align: center;
 }
 
+header nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
 header nav a {
     color: white;
     text-decoration: none;
-    margin: 0 15px;
     font-weight: bold;
 }
 
@@ -39,7 +44,7 @@ header nav a {
 }
 
 .post-box {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.2);
     padding: 20px;
     border-radius: 10px;
     width: 40%;
@@ -53,7 +58,7 @@ header nav a {
 .quotes {
     text-align: left;
     max-width: 600px;
-    margin: 50px auto 20px 10%; /* Move as frases mais para a esquerda */
+    margin: 50px auto 20px 5%; /* Ajuste para não invadir o notebook */
     font-style: italic;
     color: #ccc;
 }
