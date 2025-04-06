@@ -102,7 +102,7 @@ header nav ul li a:hover {
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 50px; /* ou ajuste conforme necessário */
+  height: -50px; /* ou ajuste conforme necessário */
   background-color: rgba(0, 0, 0, 0.5);
   color: #fff;
   font-style: italic;
