@@ -97,18 +97,17 @@ header nav ul li a:hover {
 
 /* Frases */
 .frases {
+ width: 100%;
+  min-height: 150px; /* ou mais, se quiser */
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-style: italic;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  height: -50px; /* ou ajuste conforme necessário */
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #fff;
-  font-style: italic;
-  font-size: 1.2em;
-  padding: 0 20px;
-  margin-top: 0px;
+  margin: 0; /* tira margem de fora */
+  padding: 40px 20px; /* dá um espaço interno bonito */
 }
 
 .frases blockquote {
