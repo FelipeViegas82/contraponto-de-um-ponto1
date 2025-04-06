@@ -110,8 +110,8 @@ header nav ul li a:hover {
   padding: 40px 20px; /* dá um espaço interno bonito */
   align-items: flex-start; /* joga o conteúdo pro lado esquerdo */
   padding-left: 60px; /* ajuste fino da distância da borda esquerda */
-  transform: translateX(-20px); /* move tudo 20px à esquerda */
-  margin-bottom: 4px; /* ou 0, se quiser elas coladas */
+  transform: translateX(-40px); /* move tudo 20px à esquerda */
+  margin-bottom: 2px; /* ou 0, se quiser elas coladas */
 }
 
 .frases blockquote {
