@@ -108,5 +108,7 @@ header h1 {
 
   .footer-quote {
     padding-left: -10px;
+    margin-left: 20px; /* ou menos, dependendo do que quiser */
+    text-align: left;
   }
 }
