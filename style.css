@@ -32,8 +32,8 @@ nav ul li a {
   font-weight: bold;
 }
 
-header h1 {
-  font-size: 0.5rem;              /* Menor e equilibrado */
+header h2 {
+  font-size: 1rem;              /* Menor e equilibrado */
   max-width: 70%;               /* Mais estreito pra não invadir a imagem */
   margin: 3rem auto 3rem 4rem;  /* Margem ajustada pra esquerda */
   line-height: 1.4;             /* Espaçamento entre linhas mais confortável */
