@@ -107,6 +107,6 @@ header h1 {
   }
 
   .footer-quote {
-    padding-left: 10px;
+    padding-left: -10px;
   }
 }
