@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: linear-gradient(to bottom, #ccc, #eaeaea);
-  background-image: url('background.jpg'); /* se quiser imagem no fundo */
+  background-image: url('fundo1.jpg'); /* se quiser imagem no fundo */
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
