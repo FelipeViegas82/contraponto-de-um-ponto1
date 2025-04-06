@@ -7,6 +7,14 @@
   background: rgba(0, 0, 0, 0.5);
 }
 
+body {
+  background-image: url('fundo1.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+}
+
 /* Card com imagem */
 .card-with-image {
   background-color: rgba(255, 255, 255, 0.05);
