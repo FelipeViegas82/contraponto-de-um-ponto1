@@ -110,5 +110,6 @@ header h1 {
     padding-left: -10px;
     margin-left: 20px; /* ou menos, dependendo do que quiser */
     text-align: left;
+    color: black;
   }
 }
