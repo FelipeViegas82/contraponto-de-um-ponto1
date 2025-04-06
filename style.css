@@ -1,100 +1,109 @@
-/* Fundo geral em degradê cinza */
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
-  background: linear-gradient(to bottom, #e0e0e0, #c2c2c2);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom, #ccc, #eaeaea);
+  background-image: url('background.jpg'); /* se quiser imagem no fundo */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   color: #222;
 }
 
-/* Menu de navegação horizontal */
 nav {
   background-color: #333;
-  padding: 15px 20px;
-  display: flex;
-  justify-content: center;
-}
-
-nav a {
-  color: #f0f0f0;
-  text-decoration: none;
-  margin: 0 15px;
-  font-weight: bold;
-  transition: color 0.3s;
-}
-
-nav a:hover {
-  color: #ffd700;
-}
-
-/* Hero / Frase principal */
-.hero {
+  padding: 10px 0;
   text-align: center;
-  padding: 50px 20px 30px;
-  color: #111;
-  font-size: 2em;
-  font-weight: bold;
-  text-shadow: 1px 1px 1px #fff;
 }
 
-/* Container dos posts */
-.post-container {
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header {
+  text-align: center;
+  padding: 60px 20px;
+  color: #111;
+  text-shadow: 2px 2px #fff;
+}
+
+header h1 {
+  font-size: 2.8em;
+  margin: 0;
+}
+
+.posts-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 30px 20px;
   gap: 30px;
-  padding: 40px 20px;
 }
 
-/* Cada post em "cartão" escuro */
 .post {
-  background: linear-gradient(to bottom, #f3f3f3, #d0d0d0);
+  background-color: #fff;
   border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   padding: 20px;
-  width: 320px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  transition: transform 0.2s;
+  width: 300px;
+  transition: transform 0.3s ease;
 }
 
 .post:hover {
-  transform: scale(1.02);
+  transform: translateY(-5px);
 }
 
 .post h2 {
-  margin-top: 0;
-  font-size: 1.2em;
-  color: #333;
+  font-size: 1.3em;
+  margin-bottom: 10px;
+  color: #111;
 }
 
 .post p {
   font-size: 0.95em;
-  color: #444;
+  margin-bottom: 15px;
+  color: #333;
 }
 
-/* Link de ler mais */
 .post a {
-  color: #003366;
-  font-weight: bold;
+  color: #0056cc;
   text-decoration: none;
+  font-weight: bold;
 }
 
-.post a:hover {
-  text-decoration: underline;
-}
-
-/* Frases finais */
 .footer-quote {
-  max-width: 600px;
-  margin: 0 auto 40px auto;
+  max-width: 700px;
+  margin: 40px auto;
   font-style: italic;
-  padding: 30px 20px;
+  padding: 20px;
   color: #444;
   text-align: left;
+  padding-left: 40px;
+}
 
-/* Responsivo */
 @media (max-width: 768px) {
-  .post-container {
+  .posts-container {
     flex-direction: column;
     align-items: center;
+  }
+
+  .post {
+    width: 90%;
+  }
+
+  .footer-quote {
+    padding-left: 20px;
   }
 }
