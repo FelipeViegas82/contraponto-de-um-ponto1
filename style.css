@@ -32,12 +32,13 @@ nav ul li a {
   font-weight: bold;
 }
 
-header {
-  font-size: 1rem;
-  text-align: left;
-  max-width: 60%;
-  margin: 2rem auto 1rem 4rem; /* top auto bottom left */
-  line-height: 1.2;	
+header h1 {
+  font-size: 2rem;              /* Menor e equilibrado */
+  max-width: 50%;               /* Mais estreito pra não invadir a imagem */
+  margin: 3rem auto 2rem 4rem;  /* Margem ajustada pra esquerda */
+  line-height: 1.4;             /* Espaçamento entre linhas mais confortável */
+  font-weight: bold;
+  color: #111;
 }
 
 header h1 {
