@@ -110,7 +110,7 @@ header nav ul li a:hover {
   padding: 40px 20px; /* dá um espaço interno bonito */
   align-items: flex-start; /* joga o conteúdo pro lado esquerdo */
   padding-left: 60px; /* ajuste fino da distância da borda esquerda */
-  transform: translateX(-80px); /* move tudo 20px à esquerda */
+  transform: translateX(-120px); /* move tudo 20px à esquerda */
   gap: 0px; /* ou 0, se quiser elas coladas */
 }
 
