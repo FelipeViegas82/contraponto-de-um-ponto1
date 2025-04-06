@@ -97,9 +97,18 @@ header nav ul li a:hover {
 
 /* Frases */
 .frases {
-  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  background: rgba(0, 0, 0, 0.7);
+  height: 250px; /* ou ajuste conforme necessário */
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-style: italic;
+  font-size: 1.2em;
+  padding: 0 20px;
+  margin-top: 30px;
 }
 
 .frases blockquote {
