@@ -52,7 +52,7 @@ header h1 {
   justify-content: flex-start;
   padding: 30px 60px;
   gap: 30px;
-  background-color: #fff;
+  background-color: transparent;
 }
 
 .post {
