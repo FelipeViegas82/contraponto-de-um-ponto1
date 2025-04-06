@@ -37,7 +37,7 @@ header {
   text-align: left;
   max-width: 60%;
   margin: 2rem auto 1rem 4rem; /* top auto bottom left */
-  line-height: 1.2;
+  line-height: 1.2;	
 }
 
 header h1 {
