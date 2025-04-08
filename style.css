@@ -19,11 +19,13 @@ nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;              /* ← Isso aqui alinha os <li> em linha */
+  justify-content: center;   /* ou 'flex-start' se quiser à esquerda */
+  gap: 20px;                  /* espaço entre os itens */
 }
 
 nav ul li {
-  display: inilne-block;
-  margin: 0 10px;
+  margin: 0;
 }
 
 nav ul li a:hover {
