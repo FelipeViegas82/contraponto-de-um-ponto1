@@ -63,7 +63,6 @@ header h1 {
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   padding: 20px;
   width: 300px;
-  width: 90%;
   transition: transform 0.3s ease;
 }
 
@@ -91,9 +90,7 @@ header h1 {
 
 .footer-quote {
   max-width: 700px;
-  max-width: 90%;
   margin: 40px auto;
-  margin: 2rem auto;
   font-style: italic;
   padding: 20px;
   color: #444;
