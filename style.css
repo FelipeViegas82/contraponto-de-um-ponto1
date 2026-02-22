@@ -50,13 +50,13 @@ header h1 {
 
 .posts-container {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  padding: 30px 60px;
-  gap: 30px;
+  padding: 20px 4 rem;
+  gap: 40px;
   background-color: transparent;
+  Width: 100%;
 }
 
 .post {
@@ -117,4 +117,5 @@ header h1 {
     color: black;
   }
 }
+
 
