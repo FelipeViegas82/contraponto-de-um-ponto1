@@ -60,12 +60,23 @@ header h1 {
 }
 
 .post {
-  background-color: #fff;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  padding: 20px;
-  width: 300px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  padding: 15px;
+  max-width: 800px;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
   transition: transform 0.3s ease;
+}
+
+.post img {
+  width: 80px;               /* Tamanho fixo para a logo não bagunçar */
+  height: auto;
+}
+
+.card-content {
+  text-align: left;          /* Garante que o texto interno vá para a "pontinha" */
 }
 
 .post:hover {
@@ -117,5 +128,6 @@ header h1 {
     color: black;
   }
 }
+
 
 
